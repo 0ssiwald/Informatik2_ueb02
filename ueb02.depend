@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1665416473 source:c:\users\ossi\google drive\bht 2. semester\informatik 2\c projekte\ueb02\tools.c
+	"tools.h"
+
+1665416474 c:\users\ossi\google drive\bht 2. semester\informatik 2\c projekte\ueb02\tools.h
+	<stdio.h>
+	<stdlib.h>
+
+1663266343 source:c:\users\ossi\google drive\bht 2. semester\informatik 2\c projekte\ueb02\datetime.c
+	<stdio.h>
+	<stdlib.h>
+	"datastructure.h"
+	"datetime.h"
+
+1665415585 c:\users\ossi\google drive\bht 2. semester\informatik 2\c projekte\ueb02\datastructure.h
+
+1663265215 c:\users\ossi\google drive\bht 2. semester\informatik 2\c projekte\ueb02\datetime.h
+
