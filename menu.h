@@ -15,6 +15,6 @@
               3. Number of menu points
 * Result: The inputed menu point
 ****************************************/
-int getMenu(char*, char*, int);               // ist das so richtig mit dem array einfach als char* ???
+int getMenu(char*, char**, int);               // ist das so richtig mit dem array einfach als char* ???
 
 #endif // MENU_H_INCLUDED
