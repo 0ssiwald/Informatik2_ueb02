@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include "tools.h"
 #include "menu.h"
 
 

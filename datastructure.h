@@ -24,7 +24,7 @@ typedef struct
 typedef struct
 {
    char *Name;
-   sDate Birthday;
+   sDate *Birthday;
    int ShirtNumber;
    int GoalNumber;
 } sPlayer;

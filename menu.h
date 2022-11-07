@@ -1,8 +1,6 @@
 /****************************************
 * is responsible for menu navigation
 ****************************************/
-#include <stdio.h>
-#include "tools.h"
 
 #ifndef MENU_H_INCLUDED
 #define MENU_H_INCLUDED
