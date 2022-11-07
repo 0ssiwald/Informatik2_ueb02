@@ -1,22 +1,16 @@
 #ifndef DATETIME_H_INCLUDED
 #define DATETIME_H_INCLUDED
 
-/****************************************
-* void printDate(sDate *)
-* prints the full date on the screen
-******************************************/
-void printDate(sDate *);
-
 /***************************************
 * int getDate From String(char*, sDate *)
 * Takes the input of the user and converts it
   into a Date struct stored in sDate format
 * Parameters:  1. Pointer to begin of String
-               2. Pointer of pointer to sDate where
-               the converted date is stored
+               2. Pointer to sDate where the
+                  converted date is stored
 * Result: truth value if date is valid
 ***************************************/
-int getDateFromString(char *, sDate **);
+int getDateFromString(char *, sDate *);
 
 /****************************************
 * int isDateValid(sDate *)

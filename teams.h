@@ -2,21 +2,21 @@
 * includes functions that can be called by the
 * menu regarding Teams and Players
 ********************************************/
+#pragma once
+#include <stdio.h>
+#include "datastructure.h"
+#include "tools.h"
 
 //#ifndef TEAMS_H_INCLUDED
 //#define TEAMS_H_INCLUDED
-/****************************************
-* void createTeam()
-* Asks the User to input Data like Name of Team
-* Calls createPlayer()
-****************************************/
+/*******************************************
+* not finished yet
+********************************************/
 void createTeam();
 
-/****************************************
-* void createPlayer()
-* Gets called by createTeam()
-* Asks the User to input Data for One Player like Name
-****************************************/
+/*******************************************
+* not finished yet
+********************************************/
 void createPlayer();
 
 /*******************************************
@@ -39,18 +39,9 @@ void searchPlayer();
 ********************************************/
 void sortTeams();
 
-/****************************************
-* void listTeams()
-* Dispalys all Teams with the Players in the Console
-* Calls listOneTeam()
-****************************************/
+/*******************************************
+* not finished yet
+********************************************/
 void listTeams();
 
-/****************************************
-* void listOneTeams(int )
-* Dispalys one Team with the Players in the Console
-* Gets called by listTeam()
-* Parameter: Position in Teams Array
-****************************************/
-void listOneTeam(int );
 //#endif // TEAMS_H_INCLUDED

@@ -4,18 +4,10 @@
 #include "datetime.h"
 
 
-
-void printDate(sDate *Date)
-{
-    printf("%02i.%02i.%04i", Date->Day, Date->Month, Date->Year);
-}
-
-int getDateFromString(char *Input, sDate **Date)         //???? double pointer???
-{
+int getDateFromString(char *Input, sDate *Date){
    char *pDay = Input;
    char *pMonth = NULL;
    char *pYear = NULL;
-
 
    while(*Input != '.'){
       if(*Input == '\0')
@@ -33,26 +25,15 @@ int getDateFromString(char *Input, sDate **Date)         //???? double pointer??
    int Day = atoi(pDay);
    int Month = atoi(pMonth);
    int Year = atoi(pYear);
-   sDate *Temp_date = malloc(sizeof(sDate)); // ist das so schlau oder wie macht man das am besten?
-   Temp_date->Day = Day;
-   Temp_date->Month = Month;
-   Temp_date->Year = Year;
 
-   if(isDateValid(Temp_date))
-   {
-   *Date = malloc(sizeof(sDate)); //so richtig????????
-   (*Date)->Day = Temp_date->Day;
-   (*Date)->Month = Temp_date->Month;
-   (*Date)->Year = Temp_date->Year;
-   free(Temp_date);
-    return 1;
-   }
+   Date->Day = Day;
+   Date->Month = Month;
+   Date->Year = Year;
+
+   if(isDateValid(Date))
+      return 1;
    else
-   {
-      free(Temp_date);
       return 0;
-   }
-
 }
 
 int isDateValid(sDate *Date){
